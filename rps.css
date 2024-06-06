@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.game-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333333;
+}
+
+.badge {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.result {
+    margin-bottom: 20px;
+}
+
+.result p {
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice {
+    background: #eeeeee;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    background: #dddddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.choice:active {
+    background: #cccccc;
+}
+
+#stone {
+    background-color: #ffeb3b;
+}
+
+#stone:hover {
+    background-color: #fdd835;
+}
+
+#stone:active {
+    background-color: #fbc02d;
+}
+
+#paper {
+    background-color: #2196f3;
+    color: white;
+}
+
+#paper:hover {
+    background-color: #1e88e5;
+}
+
+#paper:active {
+    background-color: #1976d2;
+}
+
+#scissors {
+    background-color: #f44336;
+    color: white;
+}
+
+#scissors:hover {
+    background-color: #e53935;
+}
+
+#scissors:active {
+    background-color: #d32f2f;
+}
